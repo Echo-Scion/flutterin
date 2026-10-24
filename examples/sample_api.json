@@ -1,0 +1,9 @@
+{
+  "id": "usr_9981",
+  "name": "Alex Johnson",
+  "email": "alex@example.com",
+  "age": 28,
+  "isActive": true,
+  "tags": ["flutter", "mobile", "typescript"],
+  "score": 94.5
+}

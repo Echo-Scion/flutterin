@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#02569B"/>
+      <stop offset="100%" stop-color="#0175C2"/>
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#13B9FD"/>
+      <stop offset="100%" stop-color="#47D1FD"/>
+    </linearGradient>
+  </defs>
+  <!-- Background Shield / Hexagon -->
+  <rect x="10" y="10" width="108" height="108" rx="24" fill="#0D1117" />
+  <rect x="11" y="11" width="106" height="106" rx="23" fill="none" stroke="#30363D" stroke-width="2"/>
+  
+  <!-- Outer Decompile Arrows Circle -->
+  <path d="M 64 24 A 40 40 0 0 1 104 64" fill="none" stroke="#0175C2" stroke-width="4" stroke-linecap="round" stroke-dasharray="8 6"/>
+  <path d="M 64 104 A 40 40 0 0 1 24 64" fill="none" stroke="#13B9FD" stroke-width="4" stroke-linecap="round" stroke-dasharray="8 6"/>
+
+  <!-- Flutter-style Wings Center -->
+  <!-- Top Right Wing -->
+  <polygon points="64,36 90,62 76,62 57,43" fill="url(#grad2)" />
+  <!-- Bottom Right Wing -->
+  <polygon points="57,69 76,50 90,50 64,76" fill="url(#grad1)" />
+  <!-- Bottom Left Wing -->
+  <polygon points="46,80 60,94 46,94 32,80" fill="url(#grad2)" />
+  <!-- Reverse Engineering Code Chevron Left -->
+  <path d="M 44 48 L 34 58 L 44 68" fill="none" stroke="#58A6FF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

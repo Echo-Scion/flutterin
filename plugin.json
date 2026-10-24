@@ -1,0 +1,12 @@
+{
+  "name": "flutterin",
+  "displayName": "Flutterin - Reverse Engineering Suite",
+  "version": "0.0.1",
+  "description": "Reverse engineer anything into clean, idiomatic Flutter 3 / Dart 3 codebases.",
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "Decompile Android APK / AAB package and reconstruct into Flutter 3 widgets",
+    "Unpack Electron ASAR or reconstruct original source from Source Map (.js.map)",
+    "Inspect HAR network capture or SQLite database into Dart models & Drift schemas"
+  ]
+}

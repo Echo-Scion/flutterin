@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "flutterin": {
+      "command": "flutterin",
+      "args": ["mcp"]
+    }
+  }
+}
